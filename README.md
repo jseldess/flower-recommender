@@ -1,10 +1,10 @@
 # 🌸 Flower Recommender
 
-A smart garden planning tool that helps you find the perfect flowers for your garden based on climate, sun exposure, watering needs, and other growing conditions.
+A garden planning tool that helps you find the perfect flowers for your garden based on climate, sun exposure, watering needs, and other growing conditions.
 
 ## Features
 
-- 🔍 Smart flower search based on multiple criteria:
+- 🔍 Flower search based on multiple criteria:
   - Climate zones
   - Sun exposure requirements
   - Watering needs
@@ -13,23 +13,22 @@ A smart garden planning tool that helps you find the perfect flowers for your ga
   - Hardiness zones
 - 🎨 Color-coded flower cards based on flower descriptions
 - 📊 Detailed growing information for each flower
-- 🌿 Database of 75+ carefully curated flowers
-- ⚡ Fast, real-time search powered by Pinecone vector database
-- 🎯 Semantic search with multilingual support
-- 🤖 Integrated embedding using multilingual-e5-large model
+- 🌿 Database of 75+ flowers
+- 🎯 Semantic search powered by Pinecone Database
+- 🤖 Integrated vector embedding using multilingual-e5-large model hosted by Pinecone
 
 ## Tech Stack
 
 - Next.js 14 with App Router
 - TypeScript
 - Tailwind CSS
-- Pinecone Vector Database with integrated embedding
+- Pinecone Database
 - Environment: Node.js 18+
 
 ## Prerequisites
 
 1. Node.js 18 or higher
-2. A Pinecone account (free tier works fine)
+2. A Pinecone account
 3. npm or yarn package manager
 
 ## Setup
@@ -94,11 +93,3 @@ A smart garden planning tool that helps you find the perfect flowers for your ga
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-## Acknowledgments
-
-- Flower data curated from various horticultural sources
-- Images sourced from Unsplash
-- Built with Next.js and Pinecone
-- Uses Pinecone's multilingual-e5-large model for text embedding
-- Special thanks to all contributors and the open-source community
